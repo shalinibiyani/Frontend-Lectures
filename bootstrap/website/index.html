@@ -4,18 +4,158 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bootstrap Website</title>
+  
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<style>
+  section{
+      padding: 60px 0;
+  }
+</style>
+
 </head>
 <body>
 
   <!-- Navbar -->
+    <nav class="navbar navbar-expand-md align-item-center navbar-light">
+      <div class="container-xxl">
+        <a href="#" class="navbar-brand">
+          <img src="/bootstrap/assets/l4o-logo.png"/>
+        </a>
+     
+   
+    <!-- Toggler Button -->
+   
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end align-item-center" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="navbar-item">
+          <a href="#about" class="nav-link">About L4o</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#reviews" class="nav-link">Reviews</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#get-in-touch" class="nav-link">Get In Touch</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#about" class="nav-link btn btn-primary ms-md-3 p-2 text-white d-inline-block">Register Now
+          </a>
+        </li>
 
+      </ul>
+    </div>
+    </div>
+  </nav>
 
   <!-- Title Image & Introduction Text -->
+ 
+  <section id="title-img">
+    <div class="container-lg">
+    <div class="row justify-content-center align-item-center"> 
+      <div class="col-md-5"> 
+        <div class="text-center text-md-start">
+        <div class="display-3 my-1 ">
+          GURANTEED JOB PAYEIN
+      </div>
+      <div style="font-size:18px" class="my-3 text-muted">
+      Apni Basha Mein Sikhe
+    </div>
+    <button class="btn btn-lg btn-primary mt-4 fs-3 px-4">
+      Apply Now
+    </button>
+    </div>
+    </div>
+      <div class="col-md-7 text-center my-5 my-md-auto ">
+     <img  class="img-fluid"  src="/bootstrap/assets/hero-banner.png"/>
+     </div>
+      </div>
+      </div>
+    </section>
+ 
 
   
   <!-- Top Courses -->
+<section id="courses"    style="background-color:#EFF8F4;">
+  <div class="container-lg">
+    <div class="d-flex  flex-column align-items-center mb-5">
+    <div class="fs-2 fw-bolder">Top Courses</div>
+    <div class="fs-5 text-muted lead">Choose a best courses  to suit you</div>
+  </div>
+    <div class="row  g-0 justify-content-center align-items-center text-center">
+      <!-- first card -->
+    
+    <div class="col-md-4 col-9 order-md-1">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-tittle fs-4 fw-bold">
+        BACKEND DEVELOPMENT
+        </div>
+        <div class="card-subtitle fs-5 text-muted">
+          Build robust infrastructure to support solid Website/apps
+        </div>
+        <div class="border-top border-2 border-dark m-auto text-dark my-4"></div>
+        <div class="fs-6 text-muted  lead">
+          Created by Tarun Chabarwal
+        </div>
+        <img  class="d-block m-auto img-fluid" src="/bootstrap/assets/backend-development.png" alt="backend-development"/>
+        <a href="#" class="btn  btn-outline-primary fs-4 px-5"> Apply Now</a>
+      </div>
+    </div>
+   
+  </div>
 
+     <!-- second card -->
+   
+     <div class="col-md-4 col-9 order-first order-md-2">
+      <div class="card border-primary" >
+        <div class="card-header fw-bold">
+          Most Popular
+        </div>
+        <div style="background-color:#FFD600;" class="m-auto px-2 fw-bold">Most Popular</div>
+        <div class="card-body"> 
+          <div class="card-tittle fs-4 fw-bold">
+        BACKEND DEVELOPMENT
+        </div>
+        <div class="card-subtitle fs-5 text-muted">
+          Build robust infrastructure to support solid Website/apps
+        </div>
+        <div class="border-top border-2 border-dark m-auto text-dark my-4"></div>
+        <div class="fs-6 text-muted  lead">
+          Created by Tarun Chabarwal
+        </div>
+        <img  class="d-block m-auto img-fluid w-50" src="/bootstrap/assets/frontend-development.png" alt="frontend-development"/>
+        <a href="#" class="btn  btn-outline-primary fs-5 px-5"> Apply Now</a>
+      </div>
+    </div>
+   
+  </div>
+
+     <!-- first card -->
+    
+     <div class="col-md-4 col-9 order-md-3">
+     <div class="card">
+       <div class="card-body">
+         <div class="card-tittle fs-4 fw-bold">
+       BACKEND DEVELOPMENT
+       </div>
+       <div class="card-subtitle fs-5 text-muted">
+         Build robust infrastructure to support solid Website/apps
+       </div>
+       <div class="border-top border-2 border-dark m-auto text-dark my-4"></div>
+       <div class="fs-6 text-muted  lead">
+         Created by Tarun Chabarwal
+       </div>
+       <img  class="d-block m-auto img-fluid" src="/bootstrap/assets/backend-development.png" alt="backend-development"/>
+       <a href="#" class="btn  btn-outline-primary fs-4 px-5"> Apply Now</a>
+     </div>
+   </div>
+  
+ </div>
+    
+  </div>
+</section>
 
   <!-- How L4o works -->
 
