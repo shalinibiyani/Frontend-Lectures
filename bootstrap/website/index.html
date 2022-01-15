@@ -256,7 +256,7 @@
         <div class="fs-2 fw-bolder">Course Reviews</div>
         <div class="fs-5 text-muted lead">Choose a best courses  to suit you</div>
       </div>
-      </div>
+    
       <div class="row justify-content-center">
         <div class="col-lg-8">
         <ul class="list-group ">
@@ -318,7 +318,7 @@
             <div class="review-item-divider"></div>
           </li>
            
-          <li class="list-group-item py-2 px-5 border-0">
+          <li class="list-group-item py-2 px-5 ">
             <!-- TODO :ICON -->
                         <!-- Star Icon Start -->
                 <i class="bi bi-star-fill text-primary  fs-4 "></i>
@@ -342,11 +342,74 @@
         </ul>
       </div>
     </div>
+    </div>
   </section>
 
 
   <!-- Contact Form -->
- 
+ <section id="contact" style="background-color: #f9f9f9;">
+      <div class="container-lg">
+        <div class="d-flex  flex-column align-items-center mb-5">
+          <div class="fs-2 fw-bolder">Get in Touch</div>
+          <div class="fs-5 text-muted lead">Please fill out the form to contact...</div>
+</div>
+          <div class="row justify-content-center">
+            <div class="col-lg-6 col-10">
+              <form  onSubmit="event.preventDefault()" mclass="d-fles flex-column justify-content-center">
+                <!-- Email Adress -->
+                <div class="mb-3">
+                  <label for="emailId">Email Adress</label>
+                  <div class="input-group" style="height: 40px;">
+                    <span class="input-group-text" >
+                      <i class="bi bi-envelope"></i>
+                    </span>
+                    <input id ="emailId" class="form-control"placeholder="abc@gmail.com" type="email"/>
+                    <span class="input-group-text" title="Enter your Email">
+                      <i class="bi bi-question"></i>
+                    </span>
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="Name">Name</label>
+                  <div class="input-group">
+                    <span class="input-group-text">
+                      <i class="bi bi-envelope"></i>
+                    </span>
+                    <input id ="Name" class="form-control" placeholder="Name" type="text">
+                    <span class="input-group-text" title="Enter your Name">
+                      <i class="bi bi-question"></i>
+                    </span>
+                  </div>
+                </div>
+                    
+                <!-- Question about -->
+                <div class="mb-4">
+                <label class="lead" for="question-about">
+                  What  is your question about ?
+                </label>
+                <select class="form-select form-select mb-3 " aria-label=".form-select-lg example">                        
+               <option value="1">Course</option>
+                  <option value="2">Fees</option>
+                  <option value="3">others</option>
+                  
+                </select>
+              </div>
+
+              <!-- msg -->
+                <div class="mb-3">
+                 <textarea class="form-control" id="exampleFormControlTextarea1" 
+                  rows="3" placeholder="Your Query"></textarea>
+                </div>
+
+                <button type="submit" style="width:200px;" class="btn mt-3 py-2 fw-bold btn-primary text-center px-3">Submit </button>
+              </form>
+
+            </div>
+          </div>
+        </div>
+
+ </section>
   <!-- Get Updates / Modal Trigger -->
 
   
